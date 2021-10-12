@@ -34,7 +34,7 @@ const { width } = useWindowDimensions();
 
   const titleAnimatedStyle = useAnimatedStyle(() => {
     return {
-      transform: [{ translateX: -contentOffset.value }],
+      transform: [{ translateX: - contentOffset.value }],
     }
   });
 
